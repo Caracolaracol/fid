@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: tipo-bold;
+  src: url(./tipo-bold.otf);
+}
+
+@font-face {
+  font-family: tipo-light;
+  src: url(./tipo-light.otf);
+}
+
+@font-face {
+  font-family: tipo-medio;
+  src: url(./tipo-medio.otf);
+}
+
+@font-face {
+  font-family: tipo-heavy;
+  src: url(./tipo-heavy.ttf);
+}

@@ -1,0 +1,370 @@
+@charset "UTF-8";
+.imagen:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+  border: 1px solid #ffffff;
+}
+.contenedor {
+  overflow: hidden;
+}
+.imagen {
+  transition: all 0.4s ease;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #232737;
+}
+.seo-style {
+  visibility: hidden;
+  margin: 0;
+  padding: 0 !important;
+  height: 0;
+  width: 0;
+}
+.ancho {
+  width: 100%;
+}
+.tex-menu {
+  padding: 15px 0 0 0;
+  font-size: 17px;
+}
+.img-principal {
+  background-image: url(../images/tv/foto-prin.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin: 0;
+}
+.titulos-listado-videos {
+  font-family: Open-Bold;
+  font-size: 30px;
+  color: #746452;
+  margin: 0;
+  padding: 0 0 5px 0;
+}
+.tex-listado-video {
+  font-family: Open-Light;
+  font-size: 18px;
+  color: #727272;
+  margin: 0;
+  padding: 0 30px 0 30px;
+}
+.listado-video {
+  padding: 50px 0 50px 0;
+}
+.contenedor-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  display: block;
+}
+.contenedor-video iframe,
+.contenedor-video object,
+.contenedor-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.color-fon-video {
+  background-color: #000;
+}
+.titulos-listado-videos-int {
+  font-family: Open-Bold;
+  font-size: 30px;
+  color: #746452;
+  margin: 0;
+  padding: 180px 30px 5px 30px;
+}
+.fondo-listado {
+  /* background-color: #000!important; */
+  background-color: #232737 !important;
+  margin: 0;
+  border: 0;
+}
+.linea {
+  border-bottom: 1px solid #746452;
+}
+.esp-listado-video {
+  padding: 15px;
+}
+.tit-sec-listado-video {
+  font-family: Open-Bold;
+  font-size: 22px;
+  color: #f9f9f9;
+  margin: 0;
+  padding: 20px 0 5px 0;
+  font-weight: 900;
+}
+.tit-actividad {
+  color: #055d95;
+}
+.tex-interior {
+  font-family: Open-Light;
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  padding: 10px 0px 0 0;
+}
+.bot-ver {
+  font-family: Open-Bold;
+  font-size: 16px;
+  background-color: #f8fafc;
+  color: #000;
+  border-radius: 2px;
+  border: 0;
+}
+.bot-ver:hover {
+  background-color: #f8fafc;
+  color: #000;
+}
+.listado {
+  float: left;
+  padding: 0 10px 0 0;
+  list-style: none;
+  color: #fff;
+}
+.list {
+  margin: 0;
+  padding: 0;
+}
+.marg {
+  margin: 300px 0 0 0;
+}
+.catego {
+  font-family: Open-Light;
+  font-size: 13px;
+  color: #fff;
+  margin: 0;
+  padding: 10px 0px 0 0;
+}
+.img-principal-interior {
+  /* background-image: url(../images/tv/fon-interior.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 450px;
+
+  margin: 0;
+}
+.esp-box {
+  margin: 0 0 20px 0;
+}
+
+/* Inicio banner tv */
+.banner-container {
+  width: 100%;
+  height: auto;
+}
+.img-banner {
+  width: 100%;
+  height: auto;
+}
+.sale-desktop {
+  display: none;
+}
+/* Fin banner tv */
+
+/* Inicio promo cba */
+.cba-btn {
+  background-color: #fdbf00;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border: 0;
+  border-radius: 10px;
+  width: fit-content;
+  font-size: 18px;
+}
+
+.promo-cba {
+  position: fixed;
+  right: 0px;
+  top: 110px;
+  z-index: 1000;
+  transition: 0.3s ease;
+}
+
+.promo-box {
+  position: relative;
+}
+
+.promo-close {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  cursor: pointer;
+}
+.promo-open {
+  position: absolute;
+  left: -51px;
+  top: 45%;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 1rem 0.5rem;
+  border-radius: 20px 0 0 20px;
+}
+.promo-close:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.promo-cba-img {
+  width: 100%;
+  height: auto;
+  border-radius: 35px 0 0 0;
+  cursor: pointer;
+}
+.promo-cba .footer-log {
+  border-radius: 0px 0 35px 0;
+  height: 40px;
+}
+/* Fin promo cba */
+
+/* Inicio area reservada */
+.container-tipddy {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .container-tipddy {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-tipddy {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-tipddy {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-tipddy {
+    max-width: 1140px;
+  }
+}
+.vacio {
+  height: 40px;
+}
+
+.tit-segundario {
+  font-family: NotoSans-Bold;
+  font-size: 30px;
+  color: #646464;
+  letter-spacing: 2.18px;
+  padding: 20px 0 0 0;
+}
+.texto-generico {
+  font-family: NotoSans-Regular;
+  font-size: 15px;
+  color: #a3a3a3;
+  letter-spacing: 0.44px;
+}
+.bot-area {
+  background-color: #232737;
+  color: #fff;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  padding: 10px 30px 10px 30px;
+  font-family: NotoSans-Light;
+  font-size: 14px;
+  margin: 0 5px 10px 0;
+}
+.bot-area:hover {
+  background-color: #fff;
+  color: #232737;
+}
+.tit-integral {
+  font-family: NotoSans-Bold;
+  font-size: 16px;
+  color: cyan;
+  letter-spacing: 0.65px;
+  padding: 0 0 0 0;
+  min-height: 60px;
+}
+.texto-generico-new {
+  font-family: NotoSans-Regular;
+  font-size: 15px;
+  color: #a3a3a3;
+  letter-spacing: 0.44px;
+  min-height: 75px;
+  padding-bottom: 2rem;
+}
+/* Fin area reservada */
+
+@media screen and (min-width: 1300px) and (max-width: 4000px) {
+  .img-principal-interior {
+    background-image: url(../images/tv/fon-interior.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 600px;
+    margin: 0;
+  }
+  .marg {
+    margin: 400px 0 0 0;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 812px) {
+  .esp-listado-cel {
+    margin: 0 0 20px 0;
+  }
+  .titulos-listado-videos-int {
+    font-family: Open-Bold;
+    font-size: 18px;
+    color: #746452;
+    margin: 0;
+    padding: 0 0px 5px 0px;
+  }
+
+  .cba-btn {
+    margin-bottom: 2rem;
+  }
+  .sale-movil {
+    display: none;
+  }
+
+  .sale-desktop {
+    display: block;
+  }
+
+  .tex-listado-video {
+    font-family: Open-Light;
+    font-size: 15px;
+    color: #727272;
+    margin: 0;
+    padding: 0 0 0 0;
+  }
+  .tit-sec-listado-video {
+    font-family: Open-Bold;
+    font-size: 22px;
+    color: #fff;
+    margin: 0;
+    padding: 20px 0 5px 0;
+  }
+  .img-principal {
+    background-image: url(../images/tv/foto-prin-cel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 0;
+  }
+  .img-principal-interior {
+    background-image: url(../images/tv/fon-interior.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    margin: 0;
+  }
+}

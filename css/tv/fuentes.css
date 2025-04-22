@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Loc-Bold ;
+  src: url(../fuentes/Locator-Bold.ttf);
+}
+
+@font-face {
+  font-family: Loc-Light;
+  src: url(../fuentes/Locator-Light.ttf);
+}
+
+@font-face {
+  font-family: Loc-UltraLight ;
+  src: url(../fuentes/Locator-UltraLight.ttf);
+}
+
+
+@font-face {
+  font-family: Open-Bold ;
+  src: url(../fuentes/OpenSans-Bold.ttf);
+}
+
+
+@font-face {
+  font-family: Open-Light ;
+  src: url(../fuentes/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: Open-Regular ;
+  src: url(../fuentes/OpenSans-Regular.ttf);
+}
+
+
+
+
